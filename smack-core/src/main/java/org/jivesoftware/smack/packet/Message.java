@@ -55,7 +55,7 @@ import org.jxmpp.stringprep.XmppStringprepException;
  *
  * @author Matt Tucker
  */
-public final class Message extends Stanza implements TypedCloneable<Message> {
+public class Message extends Stanza implements TypedCloneable<Message> {
 
     public static final String ELEMENT = "message";
     public static final String BODY = "body";
